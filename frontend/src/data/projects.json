@@ -1,0 +1,83 @@
+﻿[
+  {
+    "id": 1,
+    "title": "Al-Noran System Development",
+    "description": "Development work for the Al-Noran system  a cross-platform codebase that combines mobile/frontend and backend pieces, including UI and service logic with MongoDB, React, Express, and NodeJS.",
+    "tags": ["React", "MongoDB", "Express", "NodeJS", "Dart", "Flutter"],
+    "github": "https://github.com/Omarashraf-0-0/Al-Noran-System-Development",
+    "demo": "",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop"
+  },
+  {
+    "id": 2,
+    "title": "Simi Final Project",
+    "description": "Final project Simi  a cross-language application with Flutter-based user interface and lower-level components, suggesting a mixed frontend/native implementation with modern UI/UX.",
+    "tags": ["Flutter", "Dart", "C++", "JavaScript", "HTML", "CSS"],
+    "github": "https://github.com/Omarashraf-0-0/Simi-Final-Project-",
+    "demo": "",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop"
+  },
+  {
+    "id": 3,
+    "title": "Quiz System",
+    "description": "Quiz system  a Java application for creating, delivering, and scoring quizzes or exams with multithreading support, socket programming, and JavaFX-based user interface.",
+    "tags": ["Java", "JavaFX", "Sockets", "Multithreading"],
+    "github": "https://github.com/iOmarSh/Quiz-System",
+    "demo": "",
+    "image": "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=800&h=600&fit=crop"
+  },
+  {
+    "id": 4,
+    "title": "Software Testing",
+    "description": "Software Testing assignment  Python-based tests and exercises focused on software quality, including unit testing and automation scripts with Selenium for web testing.",
+    "tags": ["Python", "Selenium", "Testing", "Automation"],
+    "github": "https://github.com/iOmarSh/Software_testing",
+    "demo": "",
+    "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=600&fit=crop"
+  },
+  {
+    "id": 5,
+    "title": "Database Project",
+    "description": "Database project  a web application focused on database design and interaction, combining server-side PHP with Java components and a styled HTML/CSS frontend for data entry and browsing.",
+    "tags": ["PHP", "MySQL", "Java", "HTML", "CSS"],
+    "github": "https://github.com/Omarashraf-0-0/DB_Project",
+    "demo": "",
+    "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800&h=600&fit=crop"
+  },
+  {
+    "id": 6,
+    "title": "Data Cleaning Projects",
+    "description": "Collection of data cleaning and preprocessing notebooks  Jupyter notebooks demonstrating exploratory data analysis and dataset preparation with Python and data science libraries.",
+    "tags": ["Python", "Jupyter", "Data Science", "Pandas"],
+    "github": "https://github.com/iOmarSh/data-cleaning-projects",
+    "demo": "",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+  },
+  {
+    "id": 7,
+    "title": "S.Elbatal Security System",
+    "description": "Python-based security system  an implementation of security-related functionality including monitoring, automation, and sensor/alert scripts suitable for prototyping detection workflows.",
+    "tags": ["Python", "IoT", "Security", "Automation"],
+    "github": "https://github.com/Omarashraf-0-0/S.Elbatal-Security-System",
+    "demo": "",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop"
+  },
+  {
+    "id": 8,
+    "title": "Game Rhythm",
+    "description": "Web-based rhythm game  a style-focused PHP-backed web game with rich CSS for presentation and JavaScript for interactivity, implementing rhythm gameplay and interactive music experiences.",
+    "tags": ["PHP", "JavaScript", "CSS", "Bootstrap"],
+    "github": "https://github.com/Omarashraf-0-0/Game_Rythm",
+    "demo": "",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop"
+  },
+  {
+    "id": 9,
+    "title": "S.Elbatal Bakery",
+    "description": "Bakery project implemented in C++  a console or algorithmic implementation for bakery operations, orders management, and related functionality with object-oriented design.",
+    "tags": ["C++", "OOP", "Algorithms"],
+    "github": "https://github.com/ialy24405/s.Elbatal-bakery",
+    "demo": "",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&h=600&fit=crop"
+  }
+]

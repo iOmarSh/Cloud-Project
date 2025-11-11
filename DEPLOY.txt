@@ -1,0 +1,18 @@
+# Upload backend to EC2
+scp -i your-key.pem -r backend ubuntu@YOUR_EC2_IP:/home/ubuntu/
+
+# SSH into EC2
+ssh -i your-key.pem ubuntu@YOUR_EC2_IP
+
+# On EC2, run these commands:
+cd /home/ubuntu/backend
+chmod +x deploy-ec2.sh
+./deploy-ec2.sh
+
+# After deployment, update frontend/.env with:
+# VITE_API_URL=http://YOUR_EC2_PUBLIC_IP:5000
+
+# Then rebuild and redeploy frontend:
+cd frontend
+npm run build
+aws s3 sync dist/ s3://omar-shawky --delete
