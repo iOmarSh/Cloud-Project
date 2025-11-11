@@ -13,6 +13,8 @@ git rm --cached backend/.env 2>nul
 git rm --cached frontend/.env 2>nul
 git rm --cached frontend/public/undertaker.mp4 2>nul
 git rm --cached frontend/public/johncena.mp4 2>nul
+git rm --cached setup-aws.bat 2>nul
+git rm --cached deploy-to-s3.bat 2>nul
 
 echo.
 echo Step 2: Staging all changes...

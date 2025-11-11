@@ -6,9 +6,18 @@ echo.
 
 REM Configure AWS CLI
 echo Configuring AWS CLI...
-aws configure set aws_access_key_id AKIAVHPQ4U4H3B3IFYBV
-aws configure set aws_secret_access_key QUM1q08iKV77W1nW0FB432u2lDEyvBxhHrHRd2RC
-aws configure set default.region eu-north-1
+echo.
+echo Please enter your AWS credentials:
+echo.
+set /p AWS_ACCESS_KEY="AWS Access Key ID: "
+set /p AWS_SECRET_KEY="AWS Secret Access Key: "
+set /p AWS_REGION="AWS Region (default: eu-north-1): "
+
+if "%AWS_REGION%"=="" set AWS_REGION=eu-north-1
+
+aws configure set aws_access_key_id %AWS_ACCESS_KEY%
+aws configure set aws_secret_access_key %AWS_SECRET_KEY%
+aws configure set default.region %AWS_REGION%
 aws configure set default.output json
 
 echo.
@@ -25,8 +34,7 @@ echo Setup Complete!
 echo ========================================
 echo.
 echo Your S3 bucket: omar-shawky
-echo Region: eu-north-1 (Europe - Stockholm)
-echo ARN: arn:aws:s3:::omar-shawky
+echo Region: %AWS_REGION%
 echo.
 echo Next steps:
 echo 1. cd frontend

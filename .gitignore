@@ -53,6 +53,9 @@ aws/
 AWS-CREDENTIALS.txt
 *credentials*
 *CREDENTIALS*
+setup-aws.bat
+deploy-to-s3.bat
+SECURITY-CHECK.md
 
 # Sensitive files
 *.key
