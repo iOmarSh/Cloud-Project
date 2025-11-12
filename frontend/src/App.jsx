@@ -2,8 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { ThemeProvider } from './contexts/ThemeContext'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
-import ThemeToggle from './components/ThemeToggle/ThemeToggle'
-import AudioPlayer from './components/AudioPlayer/AudioPlayer'
+import WWEThemeSelector from './components/WWEThemeSelector/WWEThemeSelector'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Projects from './pages/Projects/Projects'
@@ -16,8 +15,7 @@ function App() {
       <Router>
         <div className="App">
           <Navbar />
-          <ThemeToggle />
-          <AudioPlayer />
+          <WWEThemeSelector />
           <main className="main-content">
             <Routes>
               <Route path="/" element={<Home />} />

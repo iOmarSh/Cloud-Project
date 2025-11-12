@@ -10,54 +10,30 @@
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
   --transition-slow: 0.5s ease;
-}
-
-/* Dark Theme (Default) */
-[data-theme="dark"] {
-  /* Dark Theme Colors */
-  --bg-primary: #0a0a0f;
-  --bg-secondary: #12121a;
-  --bg-card: #1a1a24;
-  --bg-card-hover: #22222e;
   
-  /* Accent Colors */
-  --accent-primary: #6366f1;
-  --accent-secondary: #8b5cf6;
-  --accent-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  /* WWE Theme Colors - Will be overridden by ThemeContext */
+  --color-primary: #8B00FF;
+  --color-secondary: #4B0082;
+  --color-accent: #9370DB;
+  --color-background: #0a0a0a;
+  --color-surface: #1a1a2e;
+  --color-text: #e0e0e0;
+  --color-textSecondary: #b0b0b0;
   
-  /* Text Colors */
-  --text-primary: #f8f9fa;
-  --text-secondary: #b8b9c1;
-  --text-muted: #6b7280;
-  
-  /* Border & Shadow */
-  --border-color: #2a2a35;
-  --glow-primary: 0 0 20px rgba(99, 102, 241, 0.3);
-  --glow-secondary: 0 0 30px rgba(139, 92, 246, 0.2);
-}
-
-/* Light Theme */
-[data-theme="light"] {
-  /* Light Theme Colors */
-  --bg-primary: #f8f9fa;
-  --bg-secondary: #e9ecef;
-  --bg-card: #ffffff;
-  --bg-card-hover: #f1f3f5;
-  
-  /* Accent Colors */
-  --accent-primary: #4f46e5;
-  --accent-secondary: #7c3aed;
-  --accent-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
-  
-  /* Text Colors */
-  --text-primary: #1a1a1a;
-  --text-secondary: #4b5563;
-  --text-muted: #9ca3af;
-  
-  /* Border & Shadow */
-  --border-color: #dee2e6;
-  --glow-primary: 0 0 20px rgba(79, 70, 229, 0.15);
-  --glow-secondary: 0 0 30px rgba(124, 58, 237, 0.1);
+  /* Map to old variable names for compatibility */
+  --bg-primary: var(--color-background);
+  --bg-secondary: var(--color-surface);
+  --bg-card: var(--color-surface);
+  --bg-card-hover: var(--color-secondary);
+  --accent-primary: var(--color-primary);
+  --accent-secondary: var(--color-secondary);
+  --accent-gradient: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  --text-primary: var(--color-text);
+  --text-secondary: var(--color-textSecondary);
+  --text-muted: var(--color-textSecondary);
+  --border-color: var(--color-secondary);
+  --glow-primary: 0 0 20px var(--color-primary);
+  --glow-secondary: 0 0 30px var(--color-secondary);
 }
 
 * {

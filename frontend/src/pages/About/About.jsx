@@ -7,13 +7,13 @@ const About = () => {
     { name: 'Java', icon: '☕' },
     { name: 'JavaScript', icon: '💛' },
     { name: 'Scikit-learn', icon: '🤖' },
-    { name: 'Pandas', icon: '�' },
-    { name: 'Matplotlib', icon: '�' },
+    { name: 'Pandas', icon: '🐼' },
+    { name: 'Matplotlib', icon: '📊' },
     { name: 'Machine Learning', icon: '🧠' },
-    { name: 'Data Science', icon: '�' },
-    { name: 'Computer Vision', icon: '�️' },
-    { name: 'MySQL', icon: '�' },
-    { name: 'Flutter', icon: '�' },
+    { name: 'Data Science', icon: '📈' },
+    { name: 'Computer Vision', icon: '👁️' },
+    { name: 'MySQL', icon: '🗄️' },
+    { name: 'Flutter', icon: '📱' },
   ]
 
   return (
