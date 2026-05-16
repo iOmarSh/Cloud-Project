@@ -30,6 +30,25 @@ A modern, dark-themed personal portfolio built with React and Node.js, designed 
 ### AWS Services
 - **S3** - Static website hosting for frontend
 - **EC2** - Backend API hosting
+- **GitHub Pages** - Alternative static hosting for frontend
+
+## 🚀 Deployment
+
+### GitHub Pages (Frontend Only)
+
+This project is configured for easy deployment to GitHub Pages.
+
+#### 1. Quick Deploy
+Run the following script in the root directory:
+```powershell
+.\deploy-to-github.bat
+```
+
+#### 2. Automatic Deployment (GitHub Actions)
+A GitHub Action is included that will automatically deploy your frontend whenever you push to the `main` branch.
+
+#### 3. Backend on GitHub Pages
+Note: GitHub Pages **does not** support Node.js backends. If you host the frontend on GitHub Pages, you must host the backend elsewhere (e.g., Render, Railway, or EC2) and update `VITE_API_URL` in your frontend environment.
 
 ## 🎯 Skills Showcased
 
