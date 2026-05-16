@@ -21,8 +21,8 @@ const AudioPlayer = () => {
     // This runs ONLY when theme changes after the first load (i.e., when user clicks toggle)
     if (audioRef.current) {
       const audioSource = isDark 
-        ? '/audio/undertaker.mp4'  // User clicked to dark theme
-        : '/audio/johncena.mp4'     // User clicked to light theme
+        ? `${import.meta.env.BASE_URL}audio/undertakers.mp3`  // User clicked to dark theme
+        : `${import.meta.env.BASE_URL}audio/johncena.mp3`     // User clicked to light theme
       
       console.log('Playing audio:', audioSource)
       

@@ -41,7 +41,7 @@ const Home = () => {
                 4. Recommended size: 500x500px or larger (square)
               */}
               <img 
-                src="/images/profile.jpg" 
+                src={`${import.meta.env.BASE_URL}images/profile.jpg`}
                 alt="Profile" 
                 className="profile-image"
                 onError={(e) => {

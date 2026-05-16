@@ -6,7 +6,7 @@ const ThemeContext = createContext()
 export const WWE_THEMES = {
   undertaker: {
     name: 'The Undertaker',
-    audio: '/audio/undertakers.mp3',
+    audio: `${import.meta.env.BASE_URL}audio/undertakers.mp3`,
     colors: {
       primary: '#8B00FF',
       secondary: '#4B0082',
@@ -19,7 +19,7 @@ export const WWE_THEMES = {
   },
   johncena: {
     name: 'John Cena',
-    audio: '/audio/johncena.mp3',
+    audio: `${import.meta.env.BASE_URL}audio/johncena.mp3`,
     colors: {
       primary: '#003087',
       secondary: '#00A8E8',
@@ -32,7 +32,7 @@ export const WWE_THEMES = {
   },
   tripleh: {
     name: 'Triple H',
-    audio: '/audio/tripleh.mp3',
+    audio: `${import.meta.env.BASE_URL}audio/tripleh.mp3`,
     colors: {
       primary: '#00a650',
       secondary: '#008940',
@@ -45,7 +45,7 @@ export const WWE_THEMES = {
   },
   kane: {
     name: 'Kane',
-    audio: '/audio/kane.mp3',
+    audio: `${import.meta.env.BASE_URL}audio/kane.mp3`,
     colors: {
       primary: '#8b0000',
       secondary: '#ff0000',
@@ -58,7 +58,7 @@ export const WWE_THEMES = {
   },
   randyorton: {
     name: 'Randy Orton',
-    audio: '/audio/randyorton.mp3',
+    audio: `${import.meta.env.BASE_URL}audio/randyorton.mp3`,
     colors: {
       primary: '#d4a574',
       secondary: '#8b7355',
@@ -71,7 +71,7 @@ export const WWE_THEMES = {
   },
   markhenry: {
     name: 'Mark Henry',
-    audio: '/audio/markhenry.mp3',
+    audio: `${import.meta.env.BASE_URL}audio/markhenry.mp3`,
     colors: {
       primary: '#654321',
       secondary: '#8b4513',
@@ -84,7 +84,7 @@ export const WWE_THEMES = {
   },
   reymysterio: {
     name: 'Rey Mysterio',
-    audio: '/audio/reymesterio.mp3',
+    audio: `${import.meta.env.BASE_URL}audio/reymesterio.mp3`,
     colors: {
       primary: '#00a86b',
       secondary: '#ff0000',
@@ -97,7 +97,7 @@ export const WWE_THEMES = {
   },
   shinsuke: {
     name: 'Shinsuke Nakamura',
-    audio: '/audio/shinsuke.mp3',
+    audio: `${import.meta.env.BASE_URL}audio/shinsuke.mp3`,
     colors: {
       primary: '#dc143c',
       secondary: '#1a1a1a',
@@ -110,7 +110,7 @@ export const WWE_THEMES = {
   },
   therock: {
     name: 'The Rock',
-    audio: '/audio/therock.mp3',
+    audio: `${import.meta.env.BASE_URL}audio/therock.mp3`,
     colors: {
       primary: '#ffd700',
       secondary: '#b8860b',
